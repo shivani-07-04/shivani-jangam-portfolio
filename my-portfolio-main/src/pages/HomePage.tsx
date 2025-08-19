@@ -3,7 +3,7 @@ import { usePortfolio } from '../context/PortfolioContext';
 import Hero from '../components/sections/Hero';
 import AIMLSection from '../components/sections/AIMLSection';
 import WebDevSection from '../components/sections/WebDevSection';
-import PythonSection from '../components/sections/PythonSection';
+
 import ContentSection from '../components/sections/ContentSection';
 
 const HomePage: React.FC = () => {
@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
       />
 
       {/* Show sections based on selected role */}
-      {activeRole === 'python' && <PythonSection />}
+   
       {activeRole === 'aiml' && <AIMLSection />}
       {activeRole === 'webdev' && <WebDevSection />}
       {activeRole === 'content' && <ContentSection />}
