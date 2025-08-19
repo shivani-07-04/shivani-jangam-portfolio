@@ -17,3 +17,8 @@
     "vite": "^7.1.2"
   }
 }
+"scripts": {
+  "dev": "vite",
+  "build": "npx vite build",
+  "preview": "vite preview"
+}
